@@ -20,3 +20,5 @@ class Solution:
             max_length = max(max_length, right -left +1)
 
         return max_length
+
+# Time Complexity is n*Log n as one for loop and one while loop inside for loop!
