@@ -40,3 +40,5 @@ class Solution(object):
                     #need bigger sum then move left forward
                     right -= 1
         return result
+
+# Time Complexity : n logn (logn) = n^2
