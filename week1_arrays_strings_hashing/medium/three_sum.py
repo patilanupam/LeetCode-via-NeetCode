@@ -41,4 +41,4 @@ class Solution(object):
                     right -= 1
         return result
 
-# Time Complexity : n logn (logn) = n^2
+# Time Complexity :  n*n as it runs for n interval both times
