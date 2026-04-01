@@ -12,3 +12,5 @@ class Solution:
             right *= nums[i]
 
         return answer
+
+# Time COmplexity: O(n)
