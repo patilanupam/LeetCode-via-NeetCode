@@ -7,6 +7,7 @@ class Solution(object):
         left = 0
         right = len(height) - 1
         max_area = 0
+        # Two pointers approch left and right as we are setting left and right accordingly
         # We need maxinimum volume of water so considering end values in array
         while left < right:
             width = right - left
@@ -22,3 +23,5 @@ class Solution(object):
                 right -=1
             
         return max_area
+
+# TIme COmplexity : O(n)
