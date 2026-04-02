@@ -7,7 +7,8 @@ class Solution(object):
         :rtype: List[int]
         """
         count = {}
-
+    # Here we are counting each no and it's occurances like [1: 2] so one occured 2 times
+    # The (num, 0) gives return 0 if the count is not captured yet of the given no in array
         for num in nums:
             count[num] = count.get(num, 0) +1
         
