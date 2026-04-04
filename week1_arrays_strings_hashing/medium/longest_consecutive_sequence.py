@@ -17,3 +17,6 @@ class Solution:
                 max_length = max(max_length, length)
 
         return max_length
+
+
+# Time Complexity: O(n) as here we are checking the sequence in the array once
