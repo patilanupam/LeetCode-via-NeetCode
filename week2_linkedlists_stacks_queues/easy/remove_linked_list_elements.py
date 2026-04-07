@@ -25,3 +25,5 @@ class Solution(object):
                 current = current.next
 
         return dummy.next
+
+Time Complexity: O(n)
